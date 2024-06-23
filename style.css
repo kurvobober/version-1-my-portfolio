@@ -1,0 +1,104 @@
+body{
+    font-family: "Montserrat", sans-serif;
+}
+.kartinki img {
+    width: 35px;
+    height: 35px;
+    display: inline-block;
+    margin: 0;
+    padding: 0;
+
+}
+
+.kartinki {
+    gap: 20px;
+    display: flex;
+}
+
+.artem {}
+
+.rectangle {
+    /* width:1520px; */
+    height: 80px;
+    background: rgb(173, 173, 244);
+    margin-top: -70px;
+}
+
+.obchi_text {
+
+}
+
+.container {
+    width: 1170px;
+    margin: 0 auto;
+}
+
+.navbar {
+    justify-content: space-between;
+    display: flex;
+    align-items: center;
+}
+
+.obchi_img {}
+
+.programist_img {
+    width: 300px;
+    height: 300px;
+}
+
+.obchi {
+    display: flex;
+}
+
+.textik {
+    text-align: center;
+}
+
+.square {
+    width: 200px;
+    height: 150px;
+    background-color: lightblue;
+    margin-right: 10px;
+    justify-content: center;
+    align-items: center;
+}
+
+.glavni_square {
+    display: flex;
+    justify-content: space-between;
+}
+
+.sait1 {
+    width: 100%;
+    height: 100%;
+}
+
+.sait2 {
+    width: 100%;
+    height: 100%;
+}
+
+.sait3 {
+    width: 100%;
+    height: 100%;
+}
+.textus{
+    text-align: center;
+
+}
+.odshi_textus{
+    display: flex;
+   justify-content: space-between;
+   
+}
+header{
+    padding-top: 100px;
+    padding-bottom: 50px;
+}
+.tekst_tri{
+    width: 650px;
+}
+.obchi{
+    display: flex;
+    justify-content: space-between;
+}
