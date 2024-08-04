@@ -1,6 +1,7 @@
-body{
+body {
     font-family: "Montserrat", sans-serif;
 }
+
 .kartinki img {
     width: 35px;
     height: 35px;
@@ -24,9 +25,7 @@ body{
     margin-top: -70px;
 }
 
-.obchi_text {
-
-}
+.obchi_text {}
 
 .container {
     width: 1170px;
@@ -55,17 +54,41 @@ body{
 }
 
 .square {
-    width: 200px;
-    height: 150px;
+    width: 300px;
+    height: 250px;
     background-color: lightblue;
     margin-right: 10px;
     justify-content: center;
     align-items: center;
+    position: relative;
+
+}
+
+.wrapper {
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    background-color: rgba(0, 0, 0, .5);
+    text-align: center;
+    line-height: 300px;
+    color: #fff;
+    font-size: 30px;
+    font-family: sans-serif;
+    opacity: 0;
+    transition: 0.3s;
+    cursor: pointer;
+}
+
+.wrapper:hover {
+    opacity: 1;
 }
 
 .glavni_square {
     display: flex;
     justify-content: space-between;
+
 }
 
 .sait1 {
@@ -82,23 +105,32 @@ body{
     width: 100%;
     height: 100%;
 }
-.textus{
+
+.textus {
     text-align: center;
 
 }
-.odshi_textus{
+
+.odshi_textus {
     display: flex;
-   justify-content: space-between;
-   
+    justify-content: space-between;
+
 }
-header{
+
+header {
     padding-top: 100px;
     padding-bottom: 50px;
 }
-.tekst_tri{
+
+.tekst_tri {
     width: 650px;
 }
-.obchi{
+
+.obchi {
     display: flex;
     justify-content: space-between;
+}
+
+.moi_raboti {
+    padding-bottom: 100px;
 }
